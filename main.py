@@ -103,7 +103,7 @@ if __name__ == '__main__':
         
 
     
-    logging.info(f"All Done: {f'output' if not is_mix else "output_mix"}")
+    logging.info(f"All Done: {f'output' if not is_mix else 'output_mix'}")
 
     input(f"Whether to open the output result ?(y/n)[default: y]: ") or "y" == "y" and \
     os.system(f"start {f'output' if not is_mix else 'output_mix'}")
